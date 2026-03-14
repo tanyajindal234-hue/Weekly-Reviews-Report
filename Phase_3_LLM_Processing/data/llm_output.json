@@ -1,0 +1,76 @@
+{
+    "top_themes": [
+        {
+            "theme": "Ease of Use",
+            "description": "Many users praised the app's user-friendly interface, making it easy to navigate and use for both beginners and experienced investors."
+        },
+        {
+            "theme": "Features and Functionality",
+            "description": "Users appreciated the app's features, such as the ability to invest in stocks, mutual funds, and other financial products, as well as the availability of various tools and resources."
+        },
+        {
+            "theme": "Customer Support",
+            "description": "Some users expressed frustration with the app's customer support, citing long wait times, unresponsive customer service, and a lack of helpfulness."
+        },
+        {
+            "theme": "Technical Issues",
+            "description": "Several users reported experiencing technical issues, such as glitches, delays, and crashes, which made it difficult to use the app."
+        },
+        {
+            "theme": "Fees and Charges",
+            "description": "Some users were unhappy with the app's fees and charges, citing high brokerage fees and other costs."
+        },
+        {
+            "theme": "Investment Options",
+            "description": "Users appreciated the app's investment options, including the ability to invest in stocks, mutual funds, and other financial products."
+        }
+    ],
+    "user_quotes": [
+        {
+            "theme": "Ease of Use",
+            "quote": "This app is very easy to use and understand, even for a beginner like me."
+        },
+        {
+            "theme": "Features and Functionality",
+            "quote": "I love the variety of features and tools available on this app, it makes investing so much easier."
+        },
+        {
+            "theme": "Customer Support",
+            "quote": "The customer support is terrible, I've been waiting for hours to get help and still haven't received a response."
+        },
+        {
+            "theme": "Technical Issues",
+            "quote": "I've experienced so many glitches and delays using this app, it's frustrating and unreliable."
+        },
+        {
+            "theme": "Fees and Charges",
+            "quote": "The fees and charges on this app are way too high, it's not worth the cost."
+        },
+        {
+            "theme": "Investment Options",
+            "quote": "I appreciate the variety of investment options available on this app, it gives me more flexibility and control over my investments."
+        }
+    ],
+    "action_ideas": [
+        {
+            "idea": "Improve Customer Support",
+            "justification": "Many users expressed frustration with the app's customer support, citing long wait times, unresponsive customer service, and a lack of helpfulness. Improving customer support would likely lead to increased user satisfaction and loyalty."
+        },
+        {
+            "idea": "Fix Technical Issues",
+            "justification": "Several users reported experiencing technical issues, such as glitches, delays, and crashes, which made it difficult to use the app. Addressing these issues would improve the overall user experience and make the app more reliable."
+        },
+        {
+            "idea": "Reduce Fees and Charges",
+            "justification": "Some users were unhappy with the app's fees and charges, citing high brokerage fees and other costs. Reducing fees and charges would make the app more competitive and attractive to users."
+        },
+        {
+            "idea": "Add More Investment Options",
+            "justification": "Users appreciated the app's investment options, including the ability to invest in stocks, mutual funds, and other financial products. Adding more investment options would give users more flexibility and control over their investments."
+        },
+        {
+            "idea": "Simplify the Interface",
+            "justification": "Some users found the app's interface to be cluttered and difficult to navigate. Simplifying the interface would make it easier for users to find what they need and use the app more efficiently."
+        }
+    ]
+}
