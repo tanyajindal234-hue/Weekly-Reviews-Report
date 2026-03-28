@@ -42,16 +42,23 @@ def main():
         
     print(f"Loaded config. Reporting to: {env_vars['EMAIL_RECIPIENT_NAME']} <{env_vars['EMAIL_RECIPIENT']}>")
     
-    # Normally we would import and call the pipeline functions here sequentially:
     # 2. Phase 1: Ingestion
-    print("\n--- Phase 1: Data Ingestion (Simulated) ---")
-    # from Phase_1_Data_Ingestion.fetch_reviews import fetch_reviews
-    # fetch_reviews()
+    print("\n--- Phase 1: Data Ingestion ---")
+    from Phase_1_Data_Ingestion.fetch_reviews import main as run_ingestion
+    try:
+        run_ingestion()
+    except Exception as e:
+        print(f"Error during Data Ingestion: {e}")
+        sys.exit(1)
     
     # 3. Phase 2: Pre-processing
-    print("\n--- Phase 2: Data Pre-processing (Simulated) ---")
-    # from Phase_2_Data_Preprocessing.preprocess import clean_data
-    # clean_data()
+    print("\n--- Phase 2: Data Pre-processing ---")
+    from Phase_2_Data_Preprocessing.preprocess import main as run_preprocessing
+    try:
+        run_preprocessing()
+    except Exception as e:
+        print(f"Error during Data Pre-processing: {e}")
+        sys.exit(1)
     
     # 4. Phase 3: LLM Processing
     print("\n--- Phase 3: Core LLM Processing ---")
